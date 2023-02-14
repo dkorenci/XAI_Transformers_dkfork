@@ -296,7 +296,7 @@ for flip_case in ['generate', 'pruning']:
                 attribution = outs['R'].squeeze()
                 
             else:
-                raise
+                raise Exception()
 
 
 
